@@ -1,3 +1,6 @@
+katz_deli = ["Moshe", "Fayge", "Rivki"]
+
+
 def line(array) # this was the one I figured out
   if array.length >= 1
     nuarray = []
@@ -49,3 +52,4 @@ end
 
 puts now_serving(katz_deli)
 puts katz_deli
+
