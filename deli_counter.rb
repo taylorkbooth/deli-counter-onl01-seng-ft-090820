@@ -1,11 +1,11 @@
 katz_deli = ["Taylor", "Nick", "Ryan"]
 
 
-def line(array)
-  if array.length >= 1
+def line(katz_deli)
+  if katz_deli.length >= 1
     newarray = []
     counter = 1 
-    array.each do |name|
+    katz_deli.each do |name|
       newarray.push("#{counter}. #{name}")
       counter += 1 
     end 
@@ -17,9 +17,9 @@ end
 
 line(katz_deli)
 
-def line_simple(array)
+def line_simple(katz_deli)
   current_line = "The simple line is currently:"
-  array.each.with_index(1) do |value, index|  
+  katz_deli.each.with_index(1) do |value, index|  
     current_line << " #{index}. #{value},"    
   end 
   puts current_line
