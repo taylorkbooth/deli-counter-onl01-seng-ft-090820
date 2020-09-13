@@ -1,3 +1,5 @@
+array = []
+
 def line(array)
   if array.length >= 1
     newarray = []
