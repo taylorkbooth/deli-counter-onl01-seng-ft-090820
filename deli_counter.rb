@@ -8,4 +8,5 @@ def line(array)
     end
     puts "The line is currently: #{newarray.join("")}"
   end
+  puts "The line is currently empty."
 end
